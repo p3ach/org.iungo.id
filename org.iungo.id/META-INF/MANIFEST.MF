@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Id
+Bundle-SymbolicName: org.iungo.id
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.iungo.id.osgi.BundleActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.iungo.common.api,
+ org.osgi.framework;version="1.3.0"
+Bundle-Vendor: Iungo
+Export-Package: org.iungo.id.api
